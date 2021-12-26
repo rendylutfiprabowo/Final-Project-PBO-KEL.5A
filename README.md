@@ -40,37 +40,38 @@ Indah Nurmala Zahra Nabil Handle:
 
 Design -> make with mermaid.live
 
-- Class Diagram:
-classDiagram
+  - Class Diagram:
+  classDiagram
 
-  Nasabah <|-- Individu
-  Nasabah <|-- Perusahaan
-  Nasabah "1"--o"*" Rekening : has
-  
-  class Nasabah{
-    <<abstract>>
-    #int nasabahID
-    #String nama
-    #String alamat
-  }
-  class Individu{
-    -long nik
-    -long npwp
-  }
-  class Perusahaan{
-    -String nib
-  }
-  class Rekening{
-    -int noRekening;
-    -double saldo
-    +tambahSaldo(double jumlah)
-    +tartikSaldo(double jumlah)
-    +double getSaldo()
-  }
+    Nasabah <|-- Individu
+    Nasabah <|-- Perusahaan
+    Nasabah "1"--o"*" Rekening : has
+
+    class Nasabah{
+      <<abstract>>
+      #int nasabahID
+      #String nama
+      #String alamat
+    }
+    class Individu{
+      -long nik
+      -long npwp
+    }
+    class Perusahaan{
+      -String nib
+    }
+    class Rekening{
+      -int noRekening;
+      -double saldo
+      +tambahSaldo(double jumlah)
+      +tartikSaldo(double jumlah)
+      +double getSaldo()
+    }
 ![mermaid-diagram-20211226134001](https://user-images.githubusercontent.com/81194811/147400976-bdc10f10-14ba-48ca-bd92-356e232643cf.png)
 
  
 - ER Diagram:
+  
 erDiagram
             Nasabah ||..|| Individu : is
             Nasabah ||--|| Perusahaan : is

@@ -32,7 +32,7 @@ Rendy Lutfi Prabowo Handle:
 - Utama.java
 - DBHelper.java
 
-Indah Nurmala Zahra Nabil Handle:
+Indah Nirmala Zahra Nabil Handle:
 - Nasabah.java
 - NasabahDataModel.java
 

@@ -99,7 +99,7 @@ Design -> make with mermaid.live
 
 - Class Diagram for JavaFX and Database:
 
-       classDiagram
+        classDiagram
         Nasabah <|-- Individu
         Nasabah <|-- Perusahaan
         Nasabah "1"--o"*" Rekening : has

@@ -14,7 +14,7 @@ Libraries and Tools of this project:
 Contributor of Kelompok 5:
 - Muhammad Faiz - 2017051007
 - Rendy Lutfi Prabowo - 2017051053
-- Indah Nurmala Zahra Nabil - 2057051004
+- Indah Nirmala Zahra Nabil - 2057051004
 
 -------------------------------------------
 
@@ -40,34 +40,31 @@ Indah Nurmala Zahra Nabil Handle:
 -------------------------------------------
 
 Design
-- Class Diagram
-- 
-![ClassDiagram](https://user-images.githubusercontent.com/83463202/135701609-633a4328-b5f8-4116-b5c6-c72922df879b.png)
+- ![Class Diagram](https://user-images.githubusercontent.com/81194811/147399231-687454cc-5c77-47ba-8e65-22eb7afc826b.png)
 
-- ER Diagram
-- 
-![ERDiagram](https://user-images.githubusercontent.com/83463202/135701612-35c9dbdb-debd-4a56-9c1d-025ad89329e4.png)
+- ![ER Diagram](https://user-images.githubusercontent.com/81194811/147399256-5eef30a0-6ba0-4403-b364-68202b3e02d5.png)
 
-- Class Diagram for JavaFX and Database
-- 
-![ClassDiagJavaFX-JDBC](https://user-images.githubusercontent.com/83463202/135701617-f6484abd-4cd0-478d-842c-72274834221b.png)
+- ![Class Diagram for JavaFX and Database ](https://user-images.githubusercontent.com/81194811/147399248-b66d4ceb-f417-481a-a55e-22e4dddd1cac.png)
+
+
 
 -------------------------------------------
 
 Result:
-Terkoneksi ke SQLITE JDBC
+Terkoneksi ke Database
 
 - Individu:
-- 
-![image](https://user-images.githubusercontent.com/83463202/135701977-15cb3abc-22fd-437a-80dd-869192225b48.png)
+![individual](https://user-images.githubusercontent.com/81194811/147399299-5c3c6448-8ef7-4c35-806d-1c839f13ce08.png)
+
 
 - Perusahaan:
-- 
-![image](https://user-images.githubusercontent.com/83463202/135702069-a1cdbd4b-2286-42f9-994d-263cadcb89e5.png)
+![perusahaan](https://user-images.githubusercontent.com/81194811/147399302-51a07f71-b2a5-414b-a07e-21a607a7d52d.png)
+
 
 - Transaksi
-- 
-![image](https://user-images.githubusercontent.com/83463202/135702106-cef4df17-af53-4f80-9654-ba59e87726e5.png)
+![transaksi - tambah saldo](https://user-images.githubusercontent.com/81194811/147399308-cf842814-df95-4c37-86c9-ab465c682886.png)
+![transaksi - tarik saldo](https://user-images.githubusercontent.com/81194811/147399309-68fc7074-78f5-47c9-b4b4-618868502c2d.png)
+
 
 -------------------------------------------
 For more tools, click on this link :

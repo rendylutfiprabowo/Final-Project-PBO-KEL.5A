@@ -41,15 +41,115 @@ Indah Nurmala Zahra Nabil Handle:
 
 Design
 - Class Diagram:
+classDiagram
+
+  Nasabah <|-- Individu
+  Nasabah <|-- Perusahaan
+  Nasabah "1"--o"*" Rekening : has
+    
+  class Nasabah{
+    <<abstract>>
+    #IntegerProperty nasabahID
+    #StringProperty nama
+    #StringProperty alamat
+  }
+  class Individu{
+    -LongProperty nik
+    -LongProperty npwp
+  }
+  class Perusahaan{
+    -StringProperty nib
+  }
+  class Rekening{
+    -IntegerProperty noRekening;
+    -DoubleProperty saldo
+    +tambahSaldo(double jumlah)
+    +tartikSaldo(double jumlah)
+    +double getSaldo()
+  }
  ![Class Diagram](https://user-images.githubusercontent.com/81194811/147399231-687454cc-5c77-47ba-8e65-22eb7afc826b.png)
  
 - ER Diagram:
+ erDiagram
+            Nasbaah ||..|| Individu : is
+            Nasbaah ||--|| Perusahaan : is
+            Nasbaah ||--|{ Rekening : "has"
+            Nasbaah {
+                int NasabahID
+                string nama
+                string alamat
+            }
+            Individu{
+                lomg nik
+                long npwp
+            }
+            Perusahaan{
+                string nib
+            }
+            Rekening{
+                int noRekening
+                double saldo
+            }
  ![ER Diagram](https://user-images.githubusercontent.com/81194811/147399256-5eef30a0-6ba0-4403-b364-68202b3e02d5.png)
 
 - Class Diagram for JavaFX and Database:
+ classDiagram
+
+  Nasabah <|-- Individu
+  Nasabah <|-- Perusahaan
+  Nasabah "1"--o"*" Rekening : has
+  Nasabah o-- NasabahDataModel : Data Modeling
+  NasabahDataModel <-- NasabahFormController : Data Control
+  NasabahDataModel --> DBHelper : DB Connection
+  NasabahFormController <.. NasabahForm : Form Control
+  class Nasabah{
+    <<abstract>>
+    #IntegerProperty nasabahID
+    #StringProperty nama
+    #StringProperty alamat
+  }
+  class Individu{
+    -LongProperty nik
+    -LongProperty npwp
+  }
+  class Perusahaan{
+    -StringProperty nib
+  }
+  class Rekening{
+    -IntegerProperty noRekening;
+    -DoubleProperty saldo
+    +tambahSaldo(double jumlah)
+    +tartikSaldo(double jumlah)
+    +double getSaldo()
+  }
+  class NasabahDataModel{
+      Connection conn
+      addNasabah()
+      addRekening()
+      getIndividu()
+      getPerusahaan()
+      nextNasabahID()
+      nextNoRekening()
+  }
+
+  class NasabahFormController{
+      initialize()
+      handleButtonAddRekening()
+      handleButtonAddNasabah()
+      loadDataIndividua()
+      loadDataPerusahaan()
+      loadDataRekening()
+      handleClearForm()
+  }
+  class DBHelper{
+      - String USERNAME
+      - String PASSWORD
+      - String DB
+      getConnection()
+      getConnection(String driver)
+      createTable();
+  }
  ![Class Diagram for JavaFX and Database ](https://user-images.githubusercontent.com/81194811/147399248-b66d4ceb-f417-481a-a55e-22e4dddd1cac.png)
-
-
 
 -------------------------------------------
 

@@ -158,8 +158,7 @@ Result:
 Terkoneksi ke Database
 
 - Individu:
-![individual](https://user-images.githubusercontent.com/81194811/147399299-5c3c6448-8ef7-4c35-806d-1c839f13ce08.png)
-
+![WhatsApp Image 2021-12-26 at 12 28 09](https://user-images.githubusercontent.com/95564115/147399791-ac483933-c32c-4954-9574-e5653acd9ca1.jpeg)
 
 - Perusahaan:
 ![perusahaan](https://user-images.githubusercontent.com/81194811/147399302-51a07f71-b2a5-414b-a07e-21a607a7d52d.png)

@@ -158,14 +158,17 @@ Result:
 Terkoneksi ke Database
 
 - Individu:
-![WhatsApp Image 2021-12-26 at 12 28 09](https://user-images.githubusercontent.com/95564115/147399791-ac483933-c32c-4954-9574-e5653acd9ca1.jpeg)
+![WhatsApp Image 2021-12-26 at 12 39 57](https://user-images.githubusercontent.com/95564115/147400028-615628ef-eeef-452f-88a8-0964513a5fcc.jpeg)
+
 
 - Perusahaan:
-![WhatsApp Image 2021-12-26 at 12 30 55](https://user-images.githubusercontent.com/95564115/147399854-f10af43a-74f0-4d15-8ace-411c504285b8.jpeg)
+![WhatsApp Image 2021-12-26 at 12 40 03](https://user-images.githubusercontent.com/95564115/147400031-fc15bcf5-e0df-464c-966f-ea6d8d295aed.jpeg)
+
 
 - Transaksi
-![WhatsApp Image 2021-12-26 at 12 30 59](https://user-images.githubusercontent.com/95564115/147399863-9530e351-5204-47b0-abc7-69f86ff72b06.jpeg)
-![WhatsApp Image 2021-12-26 at 12 31 04](https://user-images.githubusercontent.com/95564115/147399867-310cdaa3-0070-4914-a748-813e0257da1d.jpeg)
+![WhatsApp Image 2021-12-26 at 12 40 11](https://user-images.githubusercontent.com/95564115/147400032-c71222f7-6142-49ad-af57-9feec7db9221.jpeg)
+![WhatsApp Image 2021-12-26 at 12 40 17](https://user-images.githubusercontent.com/95564115/147400039-a504a502-1aff-4aa0-89ec-6ed11474b119.jpeg)
+
 
 
 -------------------------------------------

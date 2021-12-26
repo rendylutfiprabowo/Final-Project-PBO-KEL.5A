@@ -94,66 +94,67 @@ Design -> make with mermaid.live
         }
             
             
-  ![mermaid-diagram-20211226133533](https://user-images.githubusercontent.com/81194811/147400927-fb6b512c-6e30-48ad-b44f-c4132c4c7104.png)
+![mermaid-diagram-20211226133533](https://user-images.githubusercontent.com/81194811/147400927-fb6b512c-6e30-48ad-b44f-c4132c4c7104.png)
 
 
 - Class Diagram for JavaFX and Database:
- classDiagram
 
-  Nasabah <|-- Individu
-  Nasabah <|-- Perusahaan
-  Nasabah "1"--o"*" Rekening : has
-  Nasabah o-- NasabahDataModel : Data Modeling
-  NasabahDataModel <-- NasabahFormController : Data Control
-  NasabahDataModel --> DBHelper : DB Connection
-  NasabahFormController <.. NasabahForm : Form Control
-  class Nasabah{
-    <<abstract>>
-    #IntegerProperty nasabahID
-    #StringProperty nama
-    #StringProperty alamat
-  }
-  class Individu{
-    -LongProperty nik
-    -LongProperty npwp
-  }
-  class Perusahaan{
-    -StringProperty nib
-  }
-  class Rekening{
-    -IntegerProperty noRekening;
-    -DoubleProperty saldo
-    +tambahSaldo(double jumlah)
-    +tartikSaldo(double jumlah)
-    +double getSaldo()
-  }
-  class NasabahDataModel{
-      Connection conn
-      addNasabah()
-      addRekening()
-      getIndividu()
-      getPerusahaan()
-      nextNasabahID()
-      nextNoRekening()
-  }
+       classDiagram
+        Nasabah <|-- Individu
+        Nasabah <|-- Perusahaan
+        Nasabah "1"--o"*" Rekening : has
+        Nasabah o-- NasabahDataModel : Data Modeling
+        NasabahDataModel <-- NasabahFormController : Data Control
+        NasabahDataModel --> DBHelper : DB Connection
+        NasabahFormController <.. NasabahForm : Form Control
+        class Nasabah{
+          <<abstract>>
+          #IntegerProperty nasabahID
+          #StringProperty nama
+          #StringProperty alamat
+        }
+        class Individu{
+          -LongProperty nik
+          -LongProperty npwp
+        }
+        class Perusahaan{
+          -StringProperty nib
+        }
+        class Rekening{
+          -IntegerProperty noRekening;
+          -DoubleProperty saldo
+          +tambahSaldo(double jumlah)
+          +tartikSaldo(double jumlah)
+          +double getSaldo()
+        }
+        class NasabahDataModel{
+            Connection conn
+            addNasabah()
+            addRekening()
+            getIndividu()
+            getPerusahaan()
+            nextNasabahID()
+            nextNoRekening()
+        }
 
-  class NasabahFormController{
-      initialize()
-      handleButtonAddRekening()
-      handleButtonAddNasabah()
-      loadDataIndividua()
-      loadDataPerusahaan()
-      loadDataRekening()
-      handleClearForm()
-  }
-  class DBHelper{
-      - String USERNAME
-      - String PASSWORD
-      - String DB
-      getConnection()
-      getConnection(String driver)
-      createTable();
-  }
+        class NasabahFormController{
+            initialize()
+            handleButtonAddRekening()
+            handleButtonAddNasabah()
+            loadDataIndividua()
+            loadDataPerusahaan()
+            loadDataRekening()
+            handleClearForm()
+        }
+        class DBHelper{
+            - String USERNAME
+            - String PASSWORD
+            - String DB
+            getConnection()
+            getConnection(String driver)
+            createTable();
+        }
+  
  ![Class Diagram for JavaFX and Database ](https://user-images.githubusercontent.com/81194811/147399248-b66d4ceb-f417-481a-a55e-22e4dddd1cac.png)
 
 -------------------------------------------

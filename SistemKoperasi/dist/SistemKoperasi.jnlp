@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SistemKoperasi.jnlp">
+  <information>
+    <title>SistemKoperasi</title>
+    <vendor>Alrizie</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SistemKoperasi.jar" size="19408" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.26.jar" size="2462364" download="eager" />
+    <jar href="lib\sqlite-jdbc-3.36.0.3.jar" size="9731064" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="SistemKoperasi" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="AplikasiNasabah.Utama"  name="SistemKoperasi" />
+  <update check="always"/>
+</jnlp>

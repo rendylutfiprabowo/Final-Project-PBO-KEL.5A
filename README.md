@@ -40,42 +40,43 @@ Indah Nurmala Zahra Nabil Handle:
 -------------------------------------------
 
 Design -> make with mermaid.live
-- Class Diagram:
 
+- Class Diagram:
 classDiagram
+
   Nasabah <|-- Individu
   Nasabah <|-- Perusahaan
   Nasabah "1"--o"*" Rekening : has
-    
   
   class Nasabah{
     <<abstract>>
-    #IntegerProperty nasabahID
-    #StringProperty nama
-    #StringProperty alamat
+    #int nasabahID
+    #String nama
+    #String alamat
   }
   class Individu{
-    -LongProperty nik
-    -LongProperty npwp
+    -long nik
+    -long npwp
   }
   class Perusahaan{
-    -StringProperty nib
+    -String nib
   }
   class Rekening{
-    -IntegerProperty noRekening;
-    -DoubleProperty saldo
+    -int noRekening;
+    -double saldo
     +tambahSaldo(double jumlah)
     +tartikSaldo(double jumlah)
     +double getSaldo()
   }
- ![Class Diagram](https://user-images.githubusercontent.com/81194811/147399231-687454cc-5c77-47ba-8e65-22eb7afc826b.png)
+![mermaid-diagram-20211226134001](https://user-images.githubusercontent.com/81194811/147400976-bdc10f10-14ba-48ca-bd92-356e232643cf.png)
+
  
 - ER Diagram:
- erDiagram
-            Nasbaah ||..|| Individu : is
-            Nasbaah ||--|| Perusahaan : is
-            Nasbaah ||--|{ Rekening : "has"
-            Nasbaah {
+erDiagram
+            Nasabah ||..|| Individu : is
+            Nasabah ||--|| Perusahaan : is
+            Nasabah ||--|{ Rekening : "has"
+            Nasabah {
                 int NasabahID
                 string nama
                 string alamat
@@ -91,7 +92,8 @@ classDiagram
                 int noRekening
                 double saldo
             }
- ![ER Diagram](https://user-images.githubusercontent.com/81194811/147399256-5eef30a0-6ba0-4403-b364-68202b3e02d5.png)
+  ![mermaid-diagram-20211226133533](https://user-images.githubusercontent.com/81194811/147400927-fb6b512c-6e30-48ad-b44f-c4132c4c7104.png)
+
 
 - Class Diagram for JavaFX and Database:
  classDiagram

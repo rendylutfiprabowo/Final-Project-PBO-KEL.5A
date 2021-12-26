@@ -171,5 +171,3 @@ Terkoneksi ke Database
 
 
 -------------------------------------------
-For more tools, click on this link :
-https://drive.google.com/drive/folders/1GW4c9UKFNPqaKOqOufaQT0pkTtMXnphC?usp=sharing

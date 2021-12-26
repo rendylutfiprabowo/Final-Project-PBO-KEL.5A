@@ -173,3 +173,5 @@ Terkoneksi ke Database
 
 
 -------------------------------------------
+TOOLS & PROJECT, YOU CAN DOWNLOAD IN LINK HERE !
+https://drive.google.com/drive/folders/1_5uDVCLZ19Iaq8ZKq2fuMSCrcbxMd6Kf?usp=sharing

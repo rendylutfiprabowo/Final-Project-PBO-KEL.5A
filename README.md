@@ -71,27 +71,29 @@ Design -> make with mermaid.live
 
  
 - ER Diagram:
-  
-erDiagram
-            Nasabah ||..|| Individu : is
-            Nasabah ||--|| Perusahaan : is
-            Nasabah ||--|{ Rekening : "has"
-            Nasabah {
-                int NasabahID
-                string nama
-                string alamat
-            }
-            Individu{
-                lomg nik
-                long npwp
-            }
-            Perusahaan{
-                string nib
-            }
-            Rekening{
-                int noRekening
-                double saldo
-            }
+
+        erDiagram
+        Nasabah ||..|| Individu : is
+        Nasabah ||--|| Perusahaan : is
+        Nasabah ||--|{ Rekening : "has"
+        Nasabah {
+            int NasabahID
+            string nama
+            string alamat
+        }
+        Individu{
+            lomg nik
+            long npwp
+        }
+        Perusahaan{
+            string nib
+        }
+        Rekening{
+            int noRekening
+            double saldo
+        }
+            
+            
   ![mermaid-diagram-20211226133533](https://user-images.githubusercontent.com/81194811/147400927-fb6b512c-6e30-48ad-b44f-c4132c4c7104.png)
 
 

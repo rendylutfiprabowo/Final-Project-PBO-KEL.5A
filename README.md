@@ -6,7 +6,6 @@ Libraries and Tools of this project:
 - mysql-connector-java-8.0.26.jar
 - sqlite-jdbc-3.36.0.3.jar
 - scene builder
-- sqlite studio
 - xampp (mysql server)
 - netbean editor
 -------------------------------------------

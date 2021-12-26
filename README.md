@@ -1,4 +1,5 @@
 About this project:
+
 Sistem yang dapat digunakan untuk merekam transaksi data nasabah di bank, dimana terdapat 2 jenis nasabah yaitu individu dan perusahaan. Setiap  nasabah dapat memiliki 1 atau lebih rekening.
 
 Libraries and Tools of this project:

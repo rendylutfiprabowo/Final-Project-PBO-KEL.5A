@@ -39,14 +39,15 @@ Indah Nurmala Zahra Nabil Handle:
 
 -------------------------------------------
 
-Design
+Design -> make with mermaid.live
 - Class Diagram:
-classDiagram
 
+classDiagram
   Nasabah <|-- Individu
   Nasabah <|-- Perusahaan
   Nasabah "1"--o"*" Rekening : has
     
+  
   class Nasabah{
     <<abstract>>
     #IntegerProperty nasabahID

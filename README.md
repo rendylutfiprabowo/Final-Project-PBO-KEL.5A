@@ -64,10 +64,10 @@ Design -> make with mermaid.live
           -int noRekening;
           -double saldo
           +tambahSaldo(double jumlah)
-          +tartikSaldo(double jumlah)
+          +tarikSaldo(double jumlah)
           +double getSaldo()
         }
-![mermaid-diagram-20211226134001](https://user-images.githubusercontent.com/81194811/147400976-bdc10f10-14ba-48ca-bd92-356e232643cf.png)
+![mermaid-diagram-20211227192857](https://user-images.githubusercontent.com/81194811/147471850-12af0db0-7355-4dd9-8413-a3c5426136c9.png)
 
  
 - ER Diagram:
@@ -82,7 +82,7 @@ Design -> make with mermaid.live
             string alamat
         }
         Individu{
-            lomg nik
+            long nik
             long npwp
         }
         Perusahaan{
@@ -93,8 +93,7 @@ Design -> make with mermaid.live
             double saldo
         }
             
-            
-![mermaid-diagram-20211226133533](https://user-images.githubusercontent.com/81194811/147400927-fb6b512c-6e30-48ad-b44f-c4132c4c7104.png)
+![mermaid-diagram-20211227192654](https://user-images.githubusercontent.com/81194811/147471739-317275c9-7823-4bcc-bf36-33a8b3d07284.png)
 
 
 - Class Diagram for JavaFX and Database:
@@ -124,7 +123,7 @@ Design -> make with mermaid.live
           -IntegerProperty noRekening;
           -DoubleProperty saldo
           +tambahSaldo(double jumlah)
-          +tartikSaldo(double jumlah)
+          +tarikSaldo(double jumlah)
           +double getSaldo()
         }
         class NasabahDataModel{
@@ -155,7 +154,7 @@ Design -> make with mermaid.live
             createTable();
         }
   
- ![Class Diagram for JavaFX and Database ](https://user-images.githubusercontent.com/81194811/147399248-b66d4ceb-f417-481a-a55e-22e4dddd1cac.png)
+![mermaid-diagram-20211227192946](https://user-images.githubusercontent.com/81194811/147471897-fc041832-5013-4fd5-8a70-d3b6f1da82ba.png)
 
 -------------------------------------------
 
